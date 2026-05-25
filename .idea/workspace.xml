@@ -5,13 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b79c57e1-8c27-46e5-a582-1471a130e570" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/config/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/exception/InsufficientStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +81,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kiran\inventory-management-system\backend\auth-service\src\main\java\com\inventory\auth\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.inventory.product" />
     </key>
   </component>
   <component name="RunManager">
