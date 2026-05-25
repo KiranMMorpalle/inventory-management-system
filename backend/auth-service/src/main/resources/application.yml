@@ -39,7 +39,7 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/inventory_auth_db
+    url: jdbc:postgresql://localhost:5432/inventory_authdb
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver

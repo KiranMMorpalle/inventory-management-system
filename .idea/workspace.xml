@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b79c57e1-8c27-46e5-a582-1471a130e570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/config/GatewayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/config/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/auth-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/init-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/inventory-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/order-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +55,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AuthService.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.auth-service.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.backend.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kiran/inventory-management-system/backend/auth-service&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthService.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.api-gateway [package].executor": "Run",
+    "Maven.auth-service [package].executor": "Run",
+    "Maven.auth-service.executor": "Run",
+    "Maven.backend.executor": "Run",
+    "Maven.inventory-service [package].executor": "Run",
+    "Maven.order-service [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kiran/inventory-management-system/backend/auth-service"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kiran\inventory-management-system\backend" />
+      <recent name="C:\Users\Kiran\inventory-management-system\" />
       <recent name="C:\Users\Kiran\inventory-management-system\backend\auth-service\src\main\java\com\inventory\auth\config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
