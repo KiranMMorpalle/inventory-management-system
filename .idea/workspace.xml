@@ -5,33 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b79c57e1-8c27-46e5-a582-1471a130e570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/config/InventoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/config/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/config/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/dto/OrderItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/dto/OrderItemResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/dto/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/entity/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/exception/InsufficientStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/repository/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/java/com/inventory/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/java/com/inventory/gateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/java/com/inventory/product/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

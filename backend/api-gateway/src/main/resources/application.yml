@@ -1,0 +1,53 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+
+        # Auth Service — no JWT filter (public)
+        - id: auth-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/auth/**
+
+        # Inventory Service — JWT required
+        - id: inventory-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/products/**
+          filters:
+            - name: JwtAuthenticationFilter
+
+        # Order Service — JWT required
+        - id: order-service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/orders/**
+          filters:
+            - name: JwtAuthenticationFilter
+
+      # Global CORS
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    com.inventory.gateway: DEBUG
