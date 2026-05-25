@@ -10,6 +10,7 @@
         <module name="backend" />
         <module name="auth-service" />
         <module name="inventory-service" />
+        <module name="order-service" />
         <module name="frontend" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-service" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
     </option>
   </component>
 </project>

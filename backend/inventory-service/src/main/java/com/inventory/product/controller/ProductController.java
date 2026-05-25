@@ -61,4 +61,15 @@ public class ProductController {
         productService.deleteProduct(id);
         return ResponseEntity.noContent().build();
     }
+
+    // Add this endpoint to ProductController in inventory-service
+    @PutMapping("/{id}/reduce-stock")
+    @Operation(summary = "Reduce stock quantity (called by Order Service)")
+    public ResponseEntity<Void> reduceStock(
+            @PathVariable Long id,
+            @RequestParam int quantity) {
+        productService.reduceStock(id, quantity);
+        return ResponseEntity.ok().build();
+    }
+
 }
