@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b79c57e1-8c27-46e5-a582-1471a130e570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/auth-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/init-db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/inventory-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/order-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/api/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/components/OrderModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/components/ProductModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Orders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Register.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auth-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/inventory-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
     "Application.AuthService.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.api-gateway [package].executor": "Run",
@@ -82,7 +81,20 @@
       <recent name="com.inventory.product" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.inventory.gateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inventory.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthService" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.inventory.auth.AuthServiceApplication" />
       <module name="auth-service" />
@@ -90,6 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
