@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b79c57e1-8c27-46e5-a582-1471a130e570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/api/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/components/OrderModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/components/ProductModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Orders.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Products.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/inventory-ui/src/pages/Register.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
